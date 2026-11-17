@@ -27,7 +27,7 @@ void WriteArray(int* arr, int size)
 		std::cout << arr[i] << " ";
 	}
 }
-
+ 
 void DeleteArray(int*& arr)
 {
 	if (arr == nullptr)
